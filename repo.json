@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "Author": "Crosant",
+    "Name": "SignupBot",
+    "InternalName": "SignupBotPlugin",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Party leads: pick a run and roster from lfg.0xc4.net, and the plugin ticks Joined on the party lead checklist as roster members join your party or alliance. Needs a plugin token from your profile page on lfg.0xc4.net.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://lfg.0xc4.net",
+    "Tags": [
+      "party",
+      "raid",
+      "roster",
+      "lfg"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Fill the party lead checklist from your party and alliance.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Crosant/SignupBotPluginRepo/master/plugins/SignupBotPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Crosant/SignupBotPluginRepo/master/plugins/SignupBotPlugin/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Crosant/SignupBotPluginRepo/master/plugins/SignupBotPlugin/latest.zip",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1790327347,
+    "DownloadCount": 0,
+    "Changelog": "- CI: build on every push, publish tagged versions to the public plugin repository\n- README: dev plugin path\n- SignupBot Dalamud plugin: fill the party lead checklist from the party and alliance"
+  }
+]
